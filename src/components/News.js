@@ -8,7 +8,7 @@ const News = (props) => {
    const capializeFirstLtr = (string) => {
       return string.charAt(0).toUpperCase() + string.slice(1);
    }
-   document.title = `${capializeFirstLtr(props.category)}-NewsMonkey App`;
+   document.title = `${capializeFirstLtr(props.category)}-PrabhatNews App`;
 
    const [articles, setArticles] = useState([]);
    const [loading, setLoading] = useState(true);
